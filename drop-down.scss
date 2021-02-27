@@ -1,0 +1,203 @@
+body
+{
+    background: #000;
+    display: flex;
+    justify-content: space-evenly;
+   
+    .c
+    {  
+        display:inline-block;
+        border: 3px solid crimson;
+        height: 50px;
+        a
+        {
+            text-decoration: none;
+            font-size: 4vh;color: whitesmoke;
+
+        }
+
+        &:hover #drop-down
+        {
+            background:#1f1;
+            display:flex;
+            flex-flow:column;
+
+        }
+        &:focus-within #drop-down
+        {
+            display: flex;
+            justify-content: center;
+        }
+        #drop-down
+        {
+            position:absolute;
+            width:fit-content;
+            display: flex;
+            flex-flow:column;
+            top:60px;
+            background-color:rgb(240, 15, 15);
+            display: none;
+            padding:30px 0;
+            border-radius: 5px;
+            text-align: left;
+            box-shadow: 0 0 10px(#fff,1);
+            // transform:translateX(-70%);
+            border: 10px solid cyan;
+
+
+            .clinks
+            {
+                // display:block;
+                // color:#000;
+                // padding:50px 0;
+                // text-decoration: none;
+                padding: 10px 50px 10px 20px;
+                color: whitesmoke;
+                i{
+                    padding:0 2px;
+                    color: black;
+                    
+                }
+
+                &:hover
+                {
+                    background-color:red;
+
+                }
+
+            }
+        }
+    }
+    
+
+// 2
+    .c1
+    {
+        border: 1px solid #fff;
+        background-color: coral;
+        list-style: none;
+        height:40px;
+        display:inline-block;
+        
+        a
+        {
+            display: flex;
+            text-decoration: none;
+            font-size: 4vh;
+            color:whitesmoke;
+        }
+       &:hover #drop-down1
+       {
+        display: flex;
+        flex-flow:column-reverse nowrap;
+        background-color: blueviolet;
+
+        }
+
+        &:focus-within #drop-down
+        {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        #drop-down1
+        {   
+            position: absolute;
+            top:45px;
+            width: fit-content;
+            margin:8px 10px;
+            background: rgba(130, 30, 205,.5);
+            border: 10px solid hsla(271, 76%, 53%,0.9);
+            padding: 30px;
+            border-radius: 10%;
+            text-align: left;
+            transform:translateX(-40%);
+            display: none;
+            // display: none;
+            // box-shadow: 0 0 10px(rgb(192, 15, 15),1);
+            // // // transform:translateX(-70%);
+            // // border: 10px solid cyan;
+
+            .clink
+            {  
+                 color: hsla(0, 69%, 46%,0.9);
+                 padding: 10px;
+                 
+            }
+            .fa
+            {
+                color: rgb(150, 233, 236);
+                padding-right: 15px;
+            }
+            &:hover
+            {
+                background-color: chocolate;
+            }
+
+        }}
+    
+        .c2
+        {
+            height:40px;
+            display: inline-block;
+            height: 40px;
+            border: 1px solid #e1e;
+            list-style: none;
+           
+            a{
+                font-size: 4vh;
+                display: flex;
+                text-decoration: none;
+                margin:10px;
+                color:ivory;
+
+            }
+            &:hover #drop-down2
+            {
+                background-color: rgb(255, 94, 30);
+                display: flex;
+                flex-flow: column nowrap;
+                color:rgb(7, 7, 255) ;
+                
+            }
+            &:focus #drop-down
+            {
+                display:flex;
+                background-color: floralwhite;
+
+            }
+
+            #drop-down2
+            {
+                position:absolute;
+                top:50px;
+                margin:0px 0px;
+                background-color: gold;
+                width: fit-content;
+                padding: 30px;
+                transform:translateX(-10%);
+                border-radius :5px;
+                display: none;
+                text-align:left;
+
+
+                i
+                {
+                    margin:0px;
+                    padding-right:9px;
+                }
+                &:hover{
+                    background-color: indianred;
+                }
+
+                
+
+            }
+
+
+        }
+    
+    }
+
+            

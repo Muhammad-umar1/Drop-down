@@ -1,0 +1,209 @@
+body {
+  background: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .c {
+  display: inline-block;
+  border: 3px solid crimson;
+  height: 50px;
+}
+
+body .c a {
+  text-decoration: none;
+  font-size: 4vh;
+  color: whitesmoke;
+}
+
+body .c:hover #drop-down {
+  background: #1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+body .c:focus-within #drop-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .c #drop-down {
+  position: absolute;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  top: 60px;
+  background-color: #f00f0f;
+  display: none;
+  padding: 30px 0;
+  border-radius: 5px;
+  text-align: left;
+  -webkit-box-shadow: 0 0 10px #fff, 1;
+          box-shadow: 0 0 10px #fff, 1;
+  border: 10px solid cyan;
+}
+
+body .c #drop-down .clinks {
+  padding: 10px 50px 10px 20px;
+  color: whitesmoke;
+}
+
+body .c #drop-down .clinks i {
+  padding: 0 2px;
+  color: black;
+}
+
+body .c #drop-down .clinks:hover {
+  background-color: red;
+}
+
+body .c1 {
+  border: 1px solid #fff;
+  background-color: coral;
+  list-style: none;
+  height: 40px;
+  display: inline-block;
+}
+
+body .c1 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  font-size: 4vh;
+  color: whitesmoke;
+}
+
+body .c1:hover #drop-down1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: column-reverse nowrap;
+          flex-flow: column-reverse nowrap;
+  background-color: blueviolet;
+}
+
+body .c1:focus-within #drop-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .c1 #drop-down1 {
+  position: absolute;
+  top: 45px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 8px 10px;
+  background: rgba(130, 30, 205, 0.5);
+  border: 10px solid rgba(138, 44, 226, 0.9);
+  padding: 30px;
+  border-radius: 10%;
+  text-align: left;
+  -webkit-transform: translateX(-40%);
+          transform: translateX(-40%);
+  display: none;
+}
+
+body .c1 #drop-down1 .clink {
+  color: rgba(198, 36, 36, 0.9);
+  padding: 10px;
+}
+
+body .c1 #drop-down1 .fa {
+  color: #96e9ec;
+  padding-right: 15px;
+}
+
+body .c1 #drop-down1:hover {
+  background-color: chocolate;
+}
+
+body .c2 {
+  height: 40px;
+  display: inline-block;
+  height: 40px;
+  border: 1px solid #e1e;
+  list-style: none;
+}
+
+body .c2 a {
+  font-size: 4vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  margin: 10px;
+  color: ivory;
+}
+
+body .c2:hover #drop-down2 {
+  background-color: #ff5e1e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  color: #0707ff;
+}
+
+body .c2:focus #drop-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: floralwhite;
+}
+
+body .c2 #drop-down2 {
+  position: absolute;
+  top: 50px;
+  margin: 0px 0px;
+  background-color: gold;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 30px;
+  -webkit-transform: translateX(-10%);
+          transform: translateX(-10%);
+  border-radius: 5px;
+  display: none;
+  text-align: left;
+}
+
+body .c2 #drop-down2 i {
+  margin: 0px;
+  padding-right: 9px;
+}
+
+body .c2 #drop-down2:hover {
+  background-color: indianred;
+}
+/*# sourceMappingURL=drop-down.css.map */
